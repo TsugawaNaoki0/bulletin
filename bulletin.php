@@ -64,7 +64,7 @@ function writeData(){
     $contents = nl2br($contents);
 
     $data = "<hr>";
-    $time = date( "Y年m月d日 H時i分s秒" );
+    $time = date( "Y年m月d日 H時i分s秒" strtotime('+9hour'));
     $data = $data.$time;
     // $hitsuyou = $time;
     $data = $data."<p>投稿者:".$personal_name."</p>";
