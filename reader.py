@@ -8,13 +8,17 @@ with open('test.txt') as f:
         # print(line)
         if((base_line in line) == False):
             # print("XXX")
-            new_line.append(line)
+            new_line.append(str(line + "\n"))
 
         line = f.readline()
 
+
 print()
 for i in range(len(new_line)):
-    print(new_line[i])
+    # print(new_line[i])
+    print()
+
+print(new_line)
 
 f = open('test.txt', 'w')
 
