@@ -5,13 +5,13 @@
 </head>
 <body>
 <div class="main">
-
-<p>一行掲示板</p>
+<br>
+<p class="kakikomi">一行掲示板</p>
 
 <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
 <!-- <input type="text" name="personal_name" placeholder="名無しさん"> -->
 
-<select name="personal_name">
+<select class="kakikomi" name="personal_name" >
     <option value="名無し">名無し(デフォルト)</option>
     <option value="イヌ">イヌ</option>
     <option value="ネコ">ネコ</option>
@@ -27,7 +27,7 @@
 <!-- </textarea> -->
 <br>
 <br>
-<input type="submit" name="btn1" value="投稿する">
+<input type="submit" class="kakikomi" name="btn1" value="投稿する">
 </form>
 
 <?php
