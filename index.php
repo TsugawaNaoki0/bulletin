@@ -11,8 +11,8 @@
 <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
 <!-- <input type="text" name="personal_name" placeholder="名無しさん"> -->
 
-<select class="kakikomi" name="personal_name" >
-    <option value="名無し">名無し(デフォルト)</option>
+<select class="kakikomi" name="personal_name" required>
+    <option value=""></option>
     <option value="イヌ">イヌ</option>
     <option value="ネコ">ネコ</option>
     <option value="ハムスター">ハムスター</option>
