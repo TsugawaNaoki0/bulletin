@@ -6,7 +6,7 @@
 <body>
 <div class="main">
 
-<p>掲示板</p>
+<p>一行掲示板</p>
 
 <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
 <!-- <input type="text" name="personal_name" placeholder="名無しさん"> -->
@@ -22,8 +22,9 @@
 </select>
 <br>
 <br>
-<textarea class="kakikomi" name="contents" rows="8" cols="40" required="required">
-</textarea>
+<input type="text" class="kakikomi" name="contents" required="required">
+<!-- <textarea class="kakikomi" name="contents" rows="8" cols="40" required="required"> -->
+<!-- </textarea> -->
 <br>
 <br>
 <input type="submit" name="btn1" value="投稿する">
