@@ -13,8 +13,14 @@
   /* cursor : url("./48813.jpg") */
 }
 
+.kakikomi_main{
+  font-size: 50px;
+  width: 1400px;
+}
+
 .kakikomi{
   font-size: 50px;
+  /* width: 1200px; */
 }
 
 #cursor{

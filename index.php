@@ -22,7 +22,7 @@
 </select>
 <br>
 <br>
-<input type="text" class="kakikomi" name="contents" required="required">
+<input type="text" class="kakikomi_main" name="contents" required="required">
 <!-- <textarea class="kakikomi" name="contents" rows="8" cols="40" required="required"> -->
 <!-- </textarea> -->
 <br>
