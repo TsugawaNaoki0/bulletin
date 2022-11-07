@@ -1,6 +1,6 @@
 new_line = []
-base_line = "<p>投稿者:</p><p>内容:</p><p></p><input type='button' name='' value='削除'>"
-
+# base_line = "<p>投稿者:</p><p>内容:</p><p></p><input type='button' name='' value='削除'>"
+base_line = "<p>投稿者:</p><p>内容:</p><p></p>"
 with open('test.txt') as f:
     line = f.readline()
     while line:
