@@ -1,3 +1,7 @@
+date('Y-m-d H:i:s', strtotime('+9hour'));
+
+----------------------------------------------
+
 cd /var/www/
 
 sudo su
