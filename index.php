@@ -22,9 +22,8 @@
 </select>
 <br>
 <br>
-<input type="text" class="kakikomi_main" name="contents" required="required">
-<!-- <textarea class="kakikomi" name="contents" rows="8" cols="40" required="required"> -->
-<!-- </textarea> -->
+<!-- <input type="text" class="kakikomi_main" name="contents" required="required"> -->
+<textarea class="kakikomi" name="contents" rows="8" cols="40" required="required"></textarea>
 <br>
 <br>
 <input type="submit" class="kakikomi" name="btn1" value="投稿する">
